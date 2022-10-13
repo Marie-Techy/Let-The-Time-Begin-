@@ -175,7 +175,7 @@ function showHighscore(){
     generateHighscores();
 }
 
-// Clears the local storage of the high scores AND text from the high score board.
+// Local storage of the high scores AND text from the high score board.
 function clearScore(){
     window.localStorage.clear();
     highscoreDisplayName.textContent = "";
@@ -212,5 +212,5 @@ function checkAnswer(answer){
     }
 }
 
-// This button starts the quiz!
+
 startQuizButton.addEventListener("click",startQuiz);
